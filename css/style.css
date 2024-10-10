@@ -4703,9 +4703,7 @@ float:none;
 	.logo_pos{
 	display:none !important;
 	}
-		header.header_center .logo_cont{
-		margin-top: 0px !important;
-	}
+		
 
 	#menu-btn{
 	display:block;
@@ -4735,7 +4733,6 @@ float:none;
 	padding:0;
 	margin-top:0;
 	height:auto;
-/* 	background:#000000; */
 	padding:15px 0 15px 0;
 
 	}
@@ -4747,8 +4744,6 @@ float:none;
 	padding:0;
 	margin-top:0;
 	height:40px;
-/* 	background:#000000;
-	overflow:hidden; */
 	}
 	header.fixed #logo {
 	height: 100%;
@@ -4805,6 +4800,9 @@ float:none;
 	}
 
 	#revolution-slider{
+	}
+		header.header_center .logo_cont{
+		margin-top: 0px !important;
 	}
 
 	nav{
@@ -4985,7 +4983,6 @@ float:none;
 	header.transparent{
 	position:absolute;
 	height:70px;
-	overflow:hidden;
 	}
 
 	header.transparent.bg-dark{
